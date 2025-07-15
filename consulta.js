@@ -871,7 +871,7 @@ function mostrarQuadroZoneamento(zona) {
                 </tr>
             </thead>
             <tbody>
-                <tr><th colspan="9" style="text-align:left;">USOS HABITACIONAIS</th></tr>
+            <tr><th colspan="9" style="text-align:left;">Usos Habitacionais</th></tr>
                 <tr>
                     <td>Habitação Unifamiliar (1)(2)</td>
                     <td>1</td><td>3 (4)</td><td>-</td><td>50% (2)</td><td>5 m</td><td>25% (3)</td><td>(5)</td><td>12 x 360</td>
@@ -896,7 +896,7 @@ function mostrarQuadroZoneamento(zona) {
                     <td>Empreendimento Inclusivo de HIS (3)</td>
                     <td>1</td><td>3 (4)</td><td>-</td><td>50% (2)</td><td>5 m</td><td>25% (3)</td><td>(5)</td><td></td>
                 </tr>
-                <tr><th colspan="9" style="text-align:left;">USOS NÃO HABITACIONAIS</th></tr>
+                <tr><th colspan="9" style="text-align:left;">Usos Não Habitacionais</th></tr>
                 <tr>
                     <td>Comunitário 1 (8)</td>
                     <td>1 (9)</td><td>2</td><td>200</td><td>50%</td><td>5 m</td><td>25% (3)</td><td>-</td><td></td>
@@ -931,6 +931,7 @@ function mostrarQuadroZoneamento(zona) {
                 <li>(8) Alvará até 400 m² com aprovação do CMU.</li>
                 <li>(9) Limitado a 200 m².</li>
                 <li>(10) Somente em edificação existente.</li>
+                <li style="font-weight: bold;">Fonte: Lei nº 15.511_2019 Atualizada 19.11.2019.</li>
             </ul>
         </small>
     </div>`;
@@ -951,7 +952,7 @@ function mostrarQuadroZoneamento(zona) {
                 </tr>
             </thead>
             <tbody>
-                <tr><th colspan="9" style="text-align:left;">USOS HABITACIONAIS</th></tr>
+            <tr><th colspan="9" style="text-align:left;">Usos Habitacionais</th></tr>
                 <tr>
                     <td>Habitações Unifamiliares (1)</td>
                     <td></td><td></td><td></td><td></td><td></td><td></td>
@@ -970,7 +971,7 @@ function mostrarQuadroZoneamento(zona) {
                     <td>Habitação Transitória 1</td>
                     <td>1</td><td>4 (2)</td><td>-</td><td>50%</td><td>5 m</td><td>25% (3)</td><td></td><td></td>
                 </tr>
-                <tr><th colspan="9" style="text-align:left;">USOS NÃO HABITACIONAIS</th></tr>
+                <tr><th colspan="9" style="text-align:left;">Usos Não Habitacionais</th></tr>
                 <tr>
                     <td>Comunitário 1 (6)</td>
                     <td>1 (5)</td><td>2</td><td>200</td><td>50%</td><td>5 m</td><td>25% (3)</td><td>-</td><td></td>
@@ -998,7 +999,7 @@ function mostrarQuadroZoneamento(zona) {
             </tbody>
         </table>
         <small>
-            <ul style="font-size: 13px;">
+        <ul style="font-size: 13px;padding: 10px 10px 0 10px;">
                 <li>(1) Admitido até 3 habitações unifamiliares por lote.</li>
                 <li>(2) Em testadas para vias externas do Eixo Estrutural ou Eixo Nova Curitiba, até 100 m de profundidade, admite-se até 6 pavimentos.</li>
                 <li>(3) Atender regulamentação específica.</li>
@@ -1006,6 +1007,7 @@ function mostrarQuadroZoneamento(zona) {
                 <li>(5) Aplicar o parâmetro mais restritivo entre coeficiente e porte.</li>
                 <li>(6) Alvará possível até 400 m² com aprovação do CMU, mesmo em edificações existentes.</li>
                 <li>(7) Somente alvará de licença para localização em edificação existente.</li>
+                <li style="font-weight: bold;">Fonte: Lei nº 15.511_2019 Atualizada 19.11.2019.</li>
             </ul>
         </small>
     </div>`;
@@ -1033,7 +1035,7 @@ function mostrarQuadroZoneamento(zona) {
             <tr><td>Habitação Coletiva</td><td>2</td><td>6</td><td>-</td><td>50</td><td>5</td><td>25 (2)</td><td>Até 2 pav. = facultado. Acima de 2 pav. = H/6, mínimo 2,50 m</td><td></td></tr>
             <tr><td>Habitação Institucional</td><td>2</td><td>6</td><td>-</td><td>50</td><td>5</td><td>25 (2)</td><td>-</td><td></td></tr>
             <tr><td>Habitação Transitória 1 (4)</td><td>2</td><td>6</td><td>-</td><td>50</td><td>5</td><td>25 (2)</td><td>-</td><td></td></tr>
-            <tr><td colspan="9"><strong>USOS NÃO HABITACIONAIS</strong></td></tr>
+            <tr><th colspan="9" style="text-align:left;">Usos Não Habitacionais</th></tr>
             <tr><td>Comunitário 1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td></td></tr>
             <tr><td>Comunitário 2 - Saúde</td><td>1 (6)</td><td>2</td><td>200 (6)</td><td>50</td><td>5</td><td>25 (2)</td><td>-</td><td></td></tr>
             <tr><td>Comércio e Serviço Vicinal</td><td>1 (6)</td><td>2</td><td>200 (6)</td><td>50</td><td>5</td><td>25 (2)</td><td>-</td><td></td></tr>
@@ -1045,13 +1047,14 @@ function mostrarQuadroZoneamento(zona) {
         </table>
         <small>
           <ul style="font-size: 13px;padding: 10px 10px 0 10px;">
-          <li>Deverá ser obedecida a fração de terreno de no mínimo 120 m² por unidade habitacional.</li>
-          <li>Atendida regulamentação específica.</li>
-          <li>Somente para lotes com área inferior a 20.000 m².</li>
-          <li>Sem centro de convenções. São admitidas atividades comerciais e prestação de serviços de bairro no porte da zona em conjunto com a Habitação Transitória 1.</li>
-          <li>A critério do CMU poderá ser concedido alvará para Comércio e Serviço Vicinal, Comunitário 1 e 2 - Saúde, em edificação existente e porte de até 400 m².</li>
-          <li>Atendido o parâmetro entre coeficiente e porte que for atingido primeiro.</li>
-          <li>Somente alvará de licença para localização em edificação existente.</li>
+          <li>(1) Deverá ser obedecida a fração de terreno de no mínimo 120 m² por unidade habitacional.</li>
+          <li>(2) Atendida regulamentação específica.</li>
+          <li>(3) Somente para lotes com área inferior a 20.000 m².</li>
+          <li>(4) Sem centro de convenções. São admitidas atividades comerciais e prestação de serviços de bairro no porte da zona em conjunto com a Habitação Transitória 1.</li>
+          <li>(5) A critério do CMU poderá ser concedido alvará para Comércio e Serviço Vicinal, Comunitário 1 e 2 - Saúde, em edificação existente e porte de até 400 m².</li>
+          <li>(6) Atendido o parâmetro entre coeficiente e porte que for atingido primeiro.</li>
+          <li>(7) Somente alvará de licença para localização em edificação existente.</li>
+          <li style="font-weight: bold;">Fonte: Lei nº 15.511_2019 Atualizada 19.11.2019.</li>
           </ul>
         </small>
       </div>`;
@@ -1074,7 +1077,7 @@ function mostrarQuadroZoneamento(zona) {
                 </tr>
             </thead>
             <tbody>
-                <tr><th colspan="9" style="text-align:left;">USOS HABITACIONAIS</th></tr>
+            <tr><th colspan="9" style="text-align:left;">Usos Habitacionais</th></tr>
                 <tr>
                     <td>Habitação Unifamiliar (1)</td>
                     <td>1</td><td>2</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td><td>-</td><td>15 x 450</td>
@@ -1095,7 +1098,7 @@ function mostrarQuadroZoneamento(zona) {
                     <td>Habitação Transitória 1</td>
                     <td>1</td><td>4</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td><td></td><td></td>
                 </tr>
-                <tr><th colspan="9" style="text-align:left;">USOS NÃO HABITACIONAIS</th></tr>
+                <tr><th colspan="9" style="text-align:left;">Usos Não Habitacionais</th></tr>
                 <tr>
                     <td>Comunitário 1 e 2</td>
                     <td>1</td><td>4</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td><td>Até 2 pav. = Facultado. Acima de 2 pav. = H/6, atendido o mínimo de 2,50 m.</td><td></td>
@@ -1115,14 +1118,87 @@ function mostrarQuadroZoneamento(zona) {
             </tbody>
         </table>
         <small>
-            <ul style="font-size: 13px;">
+        <ul style="font-size: 13px;padding: 10px 10px 0 10px;">
                 <li>(1) Uma habitação unifamiliar por lote.</li>
                 <li>(2) Atender regulamentação específica.</li>
                 <li>(3) Para conjuntos habitacionais de habitação coletiva e unifamiliar em série a área máxima do terreno deverá ser de até 20.000 (vinte mil) m².</li>
                 <li>(4) Somente alvará de licença para localização em edificação existente.</li>
+                <li style="font-weight: bold;">Fonte: Lei nº 15.511_2019 Atualizada 19.11.2019.</li>
             </ul>
         </small>
     </div>`;
+    } else if (zona === "EAC") {
+        html = `<div id="html_zona" class="ordercalc">
+        <h5 class="titulotabextra">Quadro VIII - Eixo Presidente Affonso Camargo (EAC / Outras Vias)</h5>
+        <table class="ptable" id="tabela-eac">
+            <thead>
+                <tr>
+                    <th>Usos</th>
+                    <th>Coef. de Aproveitamento</th>
+                    <th>Altura (pav.)</th>
+                    <th>Porte (m²)</th>
+                    <th>Taxa de Ocupação</th>
+                    <th>Recuo</th>
+                    <th>Taxa de Permeabilidade</th>
+                    <th>Afast. das Divisas</th>
+                    <th>Lote Padrão</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr><th colspan="9" style="text-align:left;">Usos Habitacionais</th></tr>
+                <tr>
+                    <td>Habitação Unifamiliar (1)</td>
+                    <td>1</td><td>2</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td><td>-</td><td>15 x 450</td>
+                </tr>
+                <tr>
+                    <td>Habitação Coletiva</td>
+                    <td>1,5</td><td>4</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td>
+                    <td>Até 2 pav.: facultado. Acima de 2 pav.: H/6 contado do térreo, atendido o mínimo de 2,5 m.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Habitação Institucional</td>
+                    <td>1,5</td><td>4</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Habitação Transitória 1</td>
+                    <td>1,5</td><td>4</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Empreendimento Inclusivo de HIS (2)</td>
+                    <td>1,5</td><td>4</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td><td></td><td></td>
+                </tr>
+                <tr><th colspan="9" style="text-align:left;">Usos Não Habitacionais</th></tr>
+                <tr>
+                    <td>Comunitário 1 e 2</td>
+                    <td>1</td><td>4</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td>
+                    <td>Até 2 pav.: facultado. Acima de 2 pav.: H/6 contado do térreo, atendido o mínimo de 2,5 m.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Comércio e Serviço Vicinal, de Bairro e Setorial</td>
+                    <td>1</td><td>4</td><td>-</td><td>50%</td><td>5 m</td><td>25% (2)</td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Posto de Abastecimento (2)</td>
+                    <td>1</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td></td>
+                </tr>
+                <tr>
+                    <td>Indústria Tipo 1 (3)</td>
+                    <td>-</td><td>-</td><td>400</td><td>-</td><td>-</td><td>-</td><td>-</td><td></td>
+                </tr>
+            </tbody>
+        </table>
+        <small>
+        <ul style="font-size: 13px;padding: 10px 10px 0 10px;">
+                <li>(1) Uma habitação unifamiliar por lote.</li>
+                <li>(2) Atender regulamentação específica.</li>
+                <li>(3) Somente alvará de licença para localização em edificação existente.</li>
+                <li style="font-weight: bold;">Fonte: Lei nº 15.511_2019 Atualizada 19.11.2019.</li>
+            </ul>
+        </small>
+    </div>`;
+
     }
 
     if (html) {
